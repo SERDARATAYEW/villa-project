@@ -7,14 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css.map">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="font-raleway">
+    <div class="container">
+        <div class="row text-small d-flex">
+            <div class="col">
+                <i class="bi bi-envelope-fill"></i>
+            </div>
+            <div class="col">
+                <i class="bi bi-map-fill"></i>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fw-bold">
         <div class="container">
-            <a class="navbar-brand" href="#">VILLA</a>
+            <a class="navbar-brand mx-5" href="#">VILLA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -90,6 +102,59 @@
     </div>
 
     <div class="container">
+        <div class="row py-5">
+            <div class="col-4">
+                <img src="./img/featured.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-5">
+                <div class="h5 text-danger fw-bold py-3">
+                    |FEATURED
+                </div>
+                <div class="fw-bold h1">
+                    Best <br>Appartment& <br>Sea View
+                </div>
+                <div class="bg-color">
+                    <div class="h5 text-danger py-4">
+                        Best useful links?
+                    </div>
+                    <div>
+                        Get <strong>the best Villa</strong> website template in HTML AND Bootstrap of your
+                        business.TemplateMo provides you the <span class="text-primary">best free CSS templats</span> in
+                        the world. Please tell your friends about it.
+                    </div>
+                    <div class="py-3 fw-bold">
+                        How does this work?
+                    </div>
+                    <div class="py-3 fw-bold">
+                        Why is Villa Agency the best
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <ul class="shadow border rounded-3">
+                    <li class="d-flex justify-content-evenly py-3">
+                        <img src="./img/info-icon-01.png" alt="">
+                        <span class="h5 fw-bold  py-1">250 m2</span>
+                    </li>
+                    <li class="d-flex justify-content-evenly py-3">
+                        <img src="./img/info-icon-02.png" alt="">
+                        <span class="h5 fw-bold  py-1">Contract</span>
+                    </li>
+                    <li class="d-flex justify-content-evenly py-3">
+                        <img src="./img/info-icon-03.png" alt="">
+                        <span class="h5 fw-bold  py-1">Payment</span>
+                    </li>
+                    <li class="d-flex justify-content-evenly py-3">
+                        <img src="./img/info-icon-04.png" alt="">
+                        <span class="h5 fw-bold py-1">Safety</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
         <div class="bg-image">
             <div class="py-5">
                 <div class="text-center">
@@ -103,7 +168,7 @@
             </div>
         </div>
         <div class="margin-top text-center py-5">
-            <div class="">
+            <div class="icon">
                 <img src="img/video-frame.jpg" class="w-75" alt="">
             </div>
         </div>
@@ -143,50 +208,176 @@
                 </div>
                 <div class="col">
                     <div class="col text-end py-5">
-                        <button type="button" class="btn btn-warning px-3 py-2">Appartment</button>
+                        <button type="button" class="btn btn-danger px-3 py-2">Appartment</button>
                         <button type="button" class="btn btn-dark px-3 py-2">Villa House</button>
                         <button type="button" class="btn btn-dark px-3 py-2">Penthouse</button>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <ul class="shadow pe-5 py-4">
+                        <ul class="shadow text-secondary pe-5 py-4">
                             <li class="list-group-item py-2 d-flex justify-content-between">
-                                Total Flat Space <span class="text-end h5 fw-bold">185 m2</span>
+                                Total Flat Space <span class="text-dark text-end h5 fw-bold">185 m2</span>
                             </li>
                             <li class="list-group-item py-2 d-flex justify-content-between">
-                                Floor Number <span class="text-end h5 fw-bold">26th</span>
+                                Floor Number <span class="text-dark text-end h5 fw-bold">26th</span>
                             </li>
                             <li class="list-group-item py-2 d-flex justify-content-between">
-                                Number Of Rooms <span class="text-end h5 fw-bold">4</span>
+                                Number Of Rooms <span class="text-dark text-end h5 fw-bold">4</span>
                             </li>
                             <li class="list-group-item py-2 d-flex justify-content-between">
-                                Parking Available <span class="text-end h5 fw-bold">Yes</span>
+                                Parking Available <span class="text-dark text-end h5 fw-bold">Yes</span>
                             </li>
                             <li class="list-group-item py-2 d-flex justify-content-between">
-                                Payment Process <span class="text-end h5 fw-bold">Bank</span>
+                                Payment Process <span class="text-dark text-end h5 fw-bold">Bank</span>
                             </li>
                         </ul>
                     </div>
                     <div class="col">
-                        <img src="" alt="">
+                        <img src="img/deal-01.jpg" alt="" class="w-100">
                     </div>
-                    <div class="col">
-                        Extra Info About Property
+                    <div class="col px-5">
+                        <div class="h5 py-1 fw-bold">
+                            Extra Info About Property
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iste dicta hic tempora modi
+                            aliquid, nam porro animi ex dignissimos.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, officiis nostrum.
+                            Perspiciatis cum, expedita repellendus aliquid ullam in praesentium consequatur!
+                        </p>
+                        <button type="button" class="btn btn-dark rounded-5">
+                            <i class=" h5 text-warning bi bi-bag-fill"></i>
+                            Schedule a visit
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-2 row-cols-md-3 g-3 g-sm-4 py-5">
+            <div class="col">
+                <div class="card p-2 border-0 bg-color">
+                    <img src="./img/property-01.jpg" class="rounded-3">
+                    <div class="card-body">
+                        <div class="card-price d-flex justify-content-between">
+                            <p class="bg-danger py-1 px-2 bg-opacity-25 text-black rounded-3">Luxury Villa</p>
+                            <span class="h5 fw-bold text-danger py-1">$2.264.000</span>
+                        </div>
+                        <div class="text-start fw-bold">New Street Miami, Florida</div>
+                        <div class="row">
+                            <div class="col">Bedrooms:8</div>
+                            <div class="col">Bathrooms:8</div>
+                        </div>
+                        <div class="row">
+                            <div class="col">Area: 545m2</div>
+                            <div class="col">Floor: 3</div>
+                            <div class="col">Parking: 6 spots</div>
+                        </div>
+                        <a href="#" class="btn btn-dark mt-5 rounded-5">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card p-2 border-0 bg-color">
+                    <img src="./img/property-02.jpg" class="rounded-3">
+                    <div class="card-body">
+                        <div class="card-price d-flex justify-content-between">
+                            <p class="bg-danger py-1 px-2 bg-opacity-25 text-black rounded-3">Luxury Villa</p>
+                            <span class="h5 fw-bold text-danger py-1">$1.784.000</span>
+                        </div>
+                        <div class="text-start fw-bold">Tolkun Yacht Club, Awaza</div>
+                        <div class="row">
+                            <div class="col">Bedrooms:8</div>
+                            <div class="col">Bathrooms:8</div>
+                        </div>
+                        <div class="row">
+                            <div class="col">Area: 545m2</div>
+                            <div class="col">Floor: 3</div>
+                            <div class="col">Parking: 6 spots</div>
+                        </div>
+                        <a href="#" class="btn btn-dark mt-5 rounded-5">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card p-2 border-0 bg-color">
+                    <img src="./img/property-03.jpg" class="rounded-3">
+                    <div class="card-body">
+                        <div class="card-price d-flex justify-content-between">
+                            <p class="bg-danger py-1 px-2 bg-opacity-25 text-black rounded-3">Luxury Villa</p>
+                            <span class="h5 fw-bold text-danger py-1">$1.604.000</span>
+                        </div>
+                        <div class="text-start fw-bold">Yelken Yacht Club,Awaza</div>
+                        <div class="row">
+                            <div class="col">Bedrooms:8</div>
+                            <div class="col">Bathrooms:8</div>
+                        </div>
+                        <div class="row">
+                            <div class="col">Area: 545m2</div>
+                            <div class="col">Floor: 3</div>
+                            <div class="col">Parking: 6 spots</div>
+                        </div>
+                        <a href="#" class="btn btn-dark mt-5 rounded-5">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="bg-image2">
+            <div class="py-5">
+                <div class="text-center">
+                    <div class="h5 text-danger py-3">
+                        |CONTACT US
+                    </div>
+                    <div class="text-white h1 fw-bold py-2">
+                        Get In Touch With &<br>Our Agents
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row margin-top">
+            <div class="col rounded-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d48927.65814994601!2d52.81413244199774!3d39.9642303936248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1705096978722!5m2!1sru!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col bg-light rounded-4">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="exampleFormControlInput" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your E-mail">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message"
+                        rows="3"></textarea>
+                </div>
+                <div>
+                    <a href="#"><button type="button" class="btn btn-dark rounded-5">Send Message</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/aos.js"></script>
-        <script>
-            AOS.init({
-                once: true,
-            });
-        </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
 </body>
 
 </html>
